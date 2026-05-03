@@ -1,0 +1,23 @@
+{
+  "name": "zhihyou-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.0.1",
+    "@supabase/supabase-js": "^2.0.0",
+    "@tencentcloud/chat": "^3.6.6",
+    "dotenv": "^16.0.0",
+    "hono": "^4.0.0",
+    "tls-sig-api-v2": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
